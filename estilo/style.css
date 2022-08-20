@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    font-family: roboto, sans-serif;
+     
+}
+h1{
+    font-family: roboto, sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    color: rgb(49, 49, 124)
+    
+}
+body{
+    background-color: rgb(110, 110, 110);
+    width: 960px;
+    margin: auto;
+    text-align: justify
+    
+}
+main{
+    padding: 20px;
+    background-color: rgb(255, 255, 255)
+    
+}
