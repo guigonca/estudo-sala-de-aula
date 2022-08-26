@@ -64,7 +64,7 @@ li{
     background-color: blue;
     list-style-type: none;
     display: block;
-    padding: 10px;
+    padding: 0px;
 }
 
 li a {
@@ -82,14 +82,17 @@ footer{
     background-color: black;
     color: blanchedalmond;
     clear: both;/*left right both*/
+    position: relative;
+    
+    
 }
 
 aside {
     width: 18%;
     margin: auto;
-    position: relative;
-    top: 20px;
-    right: 20px;
+    position: absolute;
+    top: 320px;
+    right: 35px;
     clear: right;
     /* background-color: var(--cor-secundaria) */
 }
@@ -131,7 +134,12 @@ figure{
 nav li a:hover{
     display: block;
     background-color: var(--cor-de-fundo);
-    transition: .7s;
-    
-    
+    transition: .3s;    
+}
+.ok{
+    width: 75%;
+}
+header ul li{
+    display: inline-block;
+      
 }
