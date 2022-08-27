@@ -67,7 +67,7 @@ li{
     padding: 0px;
 }
 
-li a {
+nav ul li a {
     display: block;
     color: rgb(233, 221, 221);
     padding: 10px;
@@ -140,6 +140,19 @@ nav li a:hover{
     width: 75%;
 }
 header ul li{
-    display: inline-block;
-      
+    
+    display: inline-block;     
 }
+.imagens li{
+    position: relative;
+    left: 20px;
+    display: inline-block;    
+}
+.imagens{
+    background-color: blue;
+    
+}
+
+
+
+
