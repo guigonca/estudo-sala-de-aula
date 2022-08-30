@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif; 
+}
+main{
+    height: 300vh;
+    margin-top: 10px;
+}
+h1{
+    margin-top: 10px;
+    
+}
+.pai{
+    
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: sticky;
+    top: 50px;
+}
+.filho{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}

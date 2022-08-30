@@ -14,12 +14,12 @@
 
 body{
     font-family: Roboto, sans-serif;
-    width: 1024px;
-    margin: auto;
     background-color: var(--cor-de-fundo);
 }
 
 main{
+    width: 1024px;
+    margin: auto;
     position: relative;
     background-color: var(--cor-secundaria);
     text-align: justify;
@@ -29,11 +29,6 @@ main{
     
 }
 
-/* main h1{ */
-/*
- # = id 
- . = class
-*/
 .diferenciado {
     font-family: Roboto, sans-serif;
     font-size: 60px;
@@ -60,9 +55,9 @@ h2 {
     font-size: 40px;
 }
 
-li{
+ol, ul {
     background-color: blue;
-    list-style-type: none;
+    list-style: none;
     display: block;
     padding: 0px;
 }
@@ -139,9 +134,32 @@ nav li a:hover{
 .ok{
     width: 75%;
 }
-header ul li{
+header {
+    height: 150px;
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    bottom: 0;
+    background-color: var(--cor-de-fundo);
+       
     
-    display: inline-block;     
+    
+}
+header nav{
+    position: absolute;
+    bottom: 0;
+    width: 1024px;
+    text-align: center;
+    
+
+}
+header nav ul li{
+    display: inline-block;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
 }
 .imagens li{
     position: relative;
@@ -149,14 +167,25 @@ header ul li{
     display: inline-block;    
 }
 .imagens {
-    background-color: blue;
-    
+    background-color: blue; 
 }
 .imagens a{
     color: white;
-    background-image: url(.img/github.png)
+    /* background-image: url(../imagens/github.png); */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
 }
-
+.github{
+    background-image: url(../imagens/github.png)
+}    
+.linkedin{
+    background-image: url(../imagens/linkedin.png)
+}
+.twitter{
+    background-image: url(../imagens/twitter.png)
+}
 
 
 
