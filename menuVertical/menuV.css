@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --cor-de-fundo: blue;
+    --cor-principal: yellow;
+    --cor-hover: rgb(233, 122, 44);
+}
+
+nav{
+    max-width: 350px;
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+}
+
+nav ul li {
+    position: relative;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    display: block;
+    padding: 10px;
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: var(--cor-hover);
+    transition: .6s;
+}
+
+/* Submenu */
+nav ul ul{
+    display: none;
+    position: relative;
+    left:20px;
+}
+
+nav ul li:hover ul{
+    display: inline-block;
+}
