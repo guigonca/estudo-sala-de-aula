@@ -16,10 +16,12 @@ h1{
     width: 400px;
     height: 400px;
     background-color: blue;
-    position: sticky;
-    top: 50px;
+    
 }
 .filho{
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 200px;
     height: 200px;
     background-color: green;
