@@ -1,26 +1,34 @@
-@charset "UTF-8";
 *{
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
-    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: sans-serifa, Verdana, Geneva, Tahoma, sans-serif;
 }
+
 main{
     height: 300vh;
-    margin-top: 10px;
+    margin-top: 50px;
 }
+
 h1{
-    margin-top: 10px;
-    
+    position: fixed;
+    top: 10px;
 }
+
+h2{
+    margin-top: 100px;
+}
+
 .pai{
-    
     width: 400px;
     height: 400px;
     background-color: blue;
-    
+    position: relative;
 }
+
 .filho{
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 0;
     width: 200px;
     height: 200px;
