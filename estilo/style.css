@@ -24,6 +24,33 @@ header{
     margin: auto;
     position: relative;
 }
+header img{
+    width: 80px;
+}
+#logo{
+    top: 10px;
+    position: absolute;
+    left: 0;
+    height: 90px;    
+}
+input[type=text]{
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 38px;
+    position: absolute;
+    left: 250px;
+    top:10px;
+    padding: 0 10px;
+}
+.textoEnviamos{
+    position: absolute;
+    left: 275px;
+    top: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
 
 header nav{
     width: 1024px;

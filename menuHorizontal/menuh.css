@@ -43,10 +43,12 @@ nav ul li a:hover {
 }
 
 /*nav ul li:last-child a {*/
-nav ul li:nth-child(6) a {
+/* nav ul li:nth-child(6) a { */
+.entrar{
     float: right;
     background-color: chocolate;
 }
+
 
 nav ul:last-child{
     background-color: var(--cor-fundo);
