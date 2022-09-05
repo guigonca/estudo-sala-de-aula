@@ -24,15 +24,18 @@ header{
     margin: auto;
     position: relative;
 }
+
 header img{
     width: 80px;
 }
+
 #logo{
-    top: 10px;
     position: absolute;
     left: 0;
-    height: 90px;    
+    top: 10px;
+    height: 90px;
 }
+
 input[type=text]{
     width: 500px;
     height: 40px;
@@ -40,10 +43,12 @@ input[type=text]{
     line-height: 38px;
     position: absolute;
     left: 250px;
-    top:10px;
-    padding: 0 10px;
+    top: 10px;
+    /* text-indent: 5px; */
+    padding: 0 5px;
 }
-.textoEnviamos{
+
+#textoEnviamos{
     position: absolute;
     left: 275px;
     top: 70px;
