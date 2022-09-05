@@ -121,10 +121,21 @@ figure{
     top: 20px;
     right: 30px;    
 }
+#carrinho, #cliente {
+    height: 40px;
+    width: 40px; 
+    margin: 0 10px;   
+}
+#menuu{
+    width: 14%;
+    margin: 0 10px;
+    position: absolute;
+    right: -10px;
+}
 
 aside, figure{
     float: right;
-    background-color: #7a7a7a;
+    background-color: #868686;
     color: var(--cor-secundaria);
     border: 5px solid var(--cor-preto);
 }
