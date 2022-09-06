@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    font-family: 'Trebuchet MS', Arial, sans-serif
+}
+:root{
+    --cor-branca: rgb(#fff);
+}
+body{
+    width: 920px;
+    height: auto;
+    margin: auto;
+}
+#logo{
+    width: 188px;
+    height: 69px;
+    float: left;
+}
+#menu{
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    float: right;
+}
+#menu a{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 25px;
+    font-family: tahoma;
+    font-size: 14px;
+}
+#menu a:hover{
+    background-color: #333;
+    color:#fff;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.marcaTexto{
+    background-color: #ff0;
+    font-style: italic;
+    font-weight: bolder;
+}
+.imgleft{
+    float: left;
+    margin-right: 10px;
+}
+p{
+    line-height: 20px;
+}
+footer{
+    width: 920px;
+    height: 40px;
+    background-color: #999;
+    margin-top: 10px;
+}
