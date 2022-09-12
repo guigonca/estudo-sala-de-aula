@@ -46,7 +46,17 @@ nav{
     padding-top: 35px;
     background-image: url(../img/transp.png)
 }
-
+nav a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+    margin: 0 20px 15px 20px;
+}
+nav a:hover{
+    background-image: url(../img/transp.png);
+}
 h2{
     font-size: 25px;
     font-weight: normal;
@@ -56,6 +66,24 @@ h2{
     background-repeat: no-repeat;
     background-position: bottom;
 }
-
+#conteudo{
+    width: 960px;
+    min-height: 300px;
+    float: left;
+}
+footer{
+    width: 960px;
+    height: 25px;
+    background-color: #f6d470;
+    float: left;
+}
+.box{
+    width: 120px;
+    min-height: 90px;
+    float: left;
+    background-color: #ccc;
+    border: 10px solid #b28500;
+    margin: 0 10px 25px 10px;
+}
 
 
