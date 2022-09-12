@@ -57,6 +57,22 @@ input[type=text]{
     color: var(--cor-secundaria);
 }
 
+#carrinho{
+    position: absolute;
+    left: 20px;
+    top: 0;
+    background-color: none;
+    border: none;
+}
+
+#cliente{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    background-color: none;
+    border: none;
+ }
+
 header nav{
     width: 1024px;
     position: absolute;
@@ -121,27 +137,10 @@ figure{
     top: 20px;
     right: 30px;    
 }
-#carrinho, #cliente {
-    height: 45px;
-    width: 45px; 
-    margin: 0 10px; 
-    position: relative;
-    right: 0px;
-    top: 10px;  
-}
-#menuu{
-    width: 17%;
-    margin: 0 10px;
-    position: absolute;
-    right: 10px;
-    top: 35px;
-    background-color: #7a7a7a00;
-    border: none;
-}
 
 aside, figure{
     float: right;
-    background-color: #868686;
+    background-color: #7a7a7a;
     color: var(--cor-secundaria);
     border: 5px solid var(--cor-preto);
 }
