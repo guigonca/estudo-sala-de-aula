@@ -1,16 +1,136 @@
 @charset "UTF-8";
+*{
+    margin:0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Trebuchet MS';
+}
+:root{
+    --cor-texto-secundario: #666;
+    --cor-texto-principal: #402c71;
+    --cor-de-texto-barra: #422d71;
+    --cor-do-link-menu: #fff;
+}
+
+body{
+    font-family: 'Trebuchet MS';
+}
+main{
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+header{
+    float: left;
+    width: 960px;
+    height: 35px;
+    background-color: var(--cor-de-texto-barra);
+}
+header figure{
+    width: 144px;
+    height: 182px;
+    display: inline;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+nav{
+    float: right;
+    line-height: 35px;
+    position: relative;
+    z-index: 10;
+}
+nav a{
+    color: var(--cor-do-link-menu);
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    
+}
+h2{
+    color: var(--cor-texto-secundario);
+    margin-bottom: 0;
+}
+
+p{
+    color: var(--cor-texto-secundario);
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 10px;
+}
+
+img{
+    border: none;
+}
+
+.titulo{
+    color: var(--cor-texto-principal);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
 #popup{
 
 }
+
 #banner{
-
+    width: 960px;
+    height: 300px;
+    float: left;
+    border-bottom: 1px solid #BBA6E7;
 }
+
 #caixa{
-    
+    /* display: none; */
+    width: 200px;
+    height: 100px;
+    background-color: var(--cor-de-texto-barra);
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    z-index: 20;
 }
+#caixa a{
+    display: block;
+    margin: 0;
+}
+
 #conteudo{
-
+    width: 960px;
+    min-height: 100px;
+    float: left;
+    margin-top: 20px;
 }
+
 #box1, #box2, #box3{
-
+    width: 280px;
+    min-height: 100px;
+    float: left;
+    /* margin-right: 40px;
+    margin-top: 30px; */
 }
+#box2{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#figureleft{
+    float: left;
+}
+footer{
+    width: 960px;
+    height: 35px;
+    background-color: #e6def5;
+    color: var(--cor-texto-principal);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 35px;
+    float: left;
+
+} 
