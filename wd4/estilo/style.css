@@ -99,3 +99,68 @@ footer{
     line-height: 30px;
     text-align: center;
 }
+
+.anuncioTablet{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #f60;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+    display: none;
+}
+
+#menuMobile{
+    display: none;
+}
+
+/*Layout responsivo --- media Query*/
+
+@media screen and (min-width: 641px) and (max-width:768px){ /*Tablet na vertical*/
+    .anuncioTablet{
+        display: block;
+    }
+
+}
+@media screen and (max-width:480px){ /*Smartphone horizontal*/
+    nav#menu a{
+        margin: 0 10px;
+    }
+    article#conteudo, aside#coluna{
+        width: 100%;
+    }
+    section#logo{
+        width: 180px;
+        height: auto;
+    }
+    section#logo img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px){
+    /*smart na vertical*/
+    nav#menu{
+        height: auto;
+        line-height: 30px;
+        /* display: none;  */
+    }
+    nav#menu a{
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    nav#menu a:last-child{
+        border: none;
+    }
+    nav#menuMobile{
+        width: 100%;
+        display: block;
+    }
+}
+
+nav#menuMobile select{
+    width: 100%;
+    background-color: #333;
+    color: #fff
+}
