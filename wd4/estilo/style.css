@@ -1,6 +1,5 @@
-@charset "UTF-8";
 body{
-    font-family: 'Trebuchet MS';   
+    font-family: 'Trebuchet MS';
 }
 
 h1{
@@ -57,9 +56,10 @@ header{
 #menu a{
     display: inline-block;
     font-size: 14px;
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
-    margin: 0 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #menu a:hover{
@@ -74,7 +74,6 @@ header{
 
 #banner img{
     width: 100%;
-
 }
 
 #conteudo{
@@ -85,8 +84,8 @@ header{
 
 #coluna{
     width: 35%;
-    height: right;
-
+    height: auto;
+    float: right;
 }
 
 footer{
@@ -104,10 +103,10 @@ footer{
     width: 100%;
     height: auto;
     float: left;
-    background-color: #f60;
+    background-color: #F60;
+    color: #FFF;
     text-align: center;
     padding: 5px 0;
-    color: white;
     display: none;
 }
 
@@ -115,52 +114,60 @@ footer{
     display: none;
 }
 
-/*Layout responsivo --- media Query*/
+/* Layout Responsivo --- Media Query */
 
-@media screen and (min-width: 641px) and (max-width:768px){ /*Tablet na vertical*/
+@media screen and (min-width:641px) and (max-width:768px){/* Tablet na vertical*/
     .anuncioTablet{
         display: block;
     }
-
-}
-@media screen and (max-width:480px){ /*Smartphone horizontal*/
-    nav#menu a{
-        margin: 0 10px;
-    }
-    article#conteudo, aside#coluna{
-        width: 100%;
-    }
-    section#logo{
-        width: 180px;
-        height: auto;
-    }
-    section#logo img{
-        width: 100%;
-    }
 }
 
-@media screen and (max-width:400px){
-    /*smart na vertical*/
-    nav#menu{
-        height: auto;
-        line-height: 30px;
-        /* display: none;  */
-    }
-    nav#menu a{
-        display: block;
-        border-bottom: 1px solid #fff;
-    }
-    nav#menu a:last-child{
-        border: none;
-    }
-    nav#menuMobile{
-        width: 100%;
-        display: block;
-    }
-}
+    @media screen and (max-width: 480px){ /* smart na horizontal*/
+        nav#menu a {
+            margin: 0 10px;
+        }
 
-nav#menuMobile select{
-    width: 100%;
-    background-color: #333;
-    color: #fff
+        article#conteudo, aside#coluna{
+            width: 100%;
+        }
+
+        section#logo{
+            width: 180px;
+            height: auto;
+        }
+
+        section#logo img{
+            width: 100%;
+        }
+
+    }
+
+    @media screen and (max-width:400px){/* Smart na vertical*/
+
+        nav#menu{
+            height: auto;
+            line-height: 30px;
+            display: none;
+        }
+
+        nav#menu a{
+            display: block;
+            border-bottom: 1px solid #FFF;
+        }
+
+        nav#menu a:last-child{
+            border: none;
+        }
+
+        nav#menuMobile{
+            width: 100%;
+            display: block;
+    }
+
+    nav#menuMobile select{
+        width: 100%;
+        background-color: #333;
+        color: #FFF;
+    }
+
 }
