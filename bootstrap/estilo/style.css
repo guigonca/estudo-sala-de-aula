@@ -1,0 +1,11 @@
+*{
+    box-shadow: 0 0 2px rgba(6,6,6, .8);
+}
+
+body{
+    margin-bottom: 100px;
+}
+.col{
+    background-color: aquamarine;
+
+}
